@@ -6,7 +6,7 @@ The gateways fail to follow at least two of the SOLID principles.
 
 ## :pencil2: Tasks
 
-- [ ] Start writing unit tests to cover the existent edge cases
+- [ ] Start writing unit tests to cover the existing edge cases
 - [ ] Refactor the classes if needed
 - [ ] Take note of the code smells
 
