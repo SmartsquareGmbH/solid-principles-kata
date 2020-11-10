@@ -14,4 +14,8 @@ class DebitGateway : Gateway {
 
     @Suppress("EmptyFunctionBlock")
     override fun request(amount: Double, email: String) {}
+
+    override fun ping(): Long {
+        return 23L
+    }
 }

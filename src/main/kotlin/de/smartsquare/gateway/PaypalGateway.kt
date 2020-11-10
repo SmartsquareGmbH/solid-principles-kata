@@ -18,4 +18,8 @@ class PaypalGateway : Gateway {
         // this would be a bunch of http requests in a real world
         balance += amount
     }
+
+    override fun ping(): Long {
+        return 22L
+    }
 }

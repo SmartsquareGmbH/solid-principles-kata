@@ -33,5 +33,10 @@ class VisaGateway : Gateway {
     }
 
     @Suppress("EmptyFunctionBlock")
-    override fun request(amount: Double, email: String) {}
+    override fun request(amount: Double, email: String) {
+    }
+
+    override fun ping(): Long {
+        return 35L
+    }
 }
